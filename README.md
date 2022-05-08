@@ -6,4 +6,4 @@ From now on, keeping track of every Birthday will just be a piece of ğŸ° cake ğ
 
 Never again miss congratulating a friend with this Birthday Reminder App
 
-Inspired in Free Code Camp tutorial by John Smilga
+Inspired in Free Code Camp tutorial by John Smilga and ui design dayly
