@@ -1,5 +1,4 @@
 import React from 'react';
-import { act } from 'react-dom/test-utils';
 
 const TodaysBirthday = ({ people }) => {
   let currDate = new Date();
@@ -21,6 +20,7 @@ const TodaysBirthday = ({ people }) => {
   ];
   let currentMonth = month[currDate.getMonth()];
   let actualDAte = `${newDate1} ${currentMonth}`;
+  console.log(actualDAte);
   return (
     <main>
       <section className="container">

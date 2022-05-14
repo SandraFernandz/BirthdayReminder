@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import data from './data';
 import List from './List';
-import TodaysBirthday from './TodaysBirthday';
+
 function App() {
   const [people, setPeople] = useState(data);
   return (
@@ -17,7 +17,6 @@ function App() {
           Clear all
         </button>
         <button onClick={() => {}}>Who's birthday is today?</button>
-        <TodaysBirthday />
       </section>
     </main>
   );
