@@ -21,6 +21,7 @@ const TodaysBirthday = ({ people }) => {
   let currentMonth = month[currDate.getMonth()];
   let actualDAte = `${newDate1} ${currentMonth}`;
   console.log(actualDAte);
+  console.log('hello');
   return (
     <main>
       <section className="container">
