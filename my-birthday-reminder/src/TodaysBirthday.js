@@ -1,6 +1,7 @@
 import React from 'react';
+import data from './data';
 
-const TodaysBirthday = ({ people }) => {
+const TodaysBirthday = () => {
   let currDate = new Date();
   let newDate = currDate.getDate();
   let newDate1 = newDate < 10 ? `0${newDate}` : `${newDate}`;
@@ -20,23 +21,18 @@ const TodaysBirthday = ({ people }) => {
   ];
   let currentMonth = month[currDate.getMonth()];
   let actualDate = `${newDate1} ${currentMonth}`;
-  console.log(actualDate);
-  console.log('hello');
+  console.log(actualDate, 'hello');
 
   return (
     <main>
       <section className="container">
         <h3>birthdays today</h3>
-        {people.map((person, index) => {
-          let personDOB = person.dob;
-          if (personDOB === actualDate) {
+        {data.map((person) => {
+          if (person.dob === actualDate) {
             return (
-              <article key={index} className="person">
-                <img src={person.image} alt={person.name} />
-                <div>
-                  <h4>{person.name}</h4>
-                </div>
-              </article>
+              <>
+                <div key={person.id}>{console.log(person.name)}</div>
+              </>
             );
           } else {
             return null;

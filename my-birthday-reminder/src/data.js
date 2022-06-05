@@ -85,7 +85,7 @@ export default [
   {
     id: 12,
     name: 'Ruby Hirst',
-    dob: '04 June',
+    dob: '05 June',
     image:
       'https://images.pexels.com/photos/3754438/pexels-photo-3754438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
