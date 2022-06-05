@@ -19,8 +19,8 @@ const TodaysBirthday = ({ people }) => {
     'December',
   ];
   let currentMonth = month[currDate.getMonth()];
-  let actualDAte = `${newDate1} ${currentMonth}`;
-  console.log(actualDAte);
+  let actualDate = `${newDate1} ${currentMonth}`;
+  console.log(actualDate);
   console.log('hello');
 
   return (
@@ -28,14 +28,13 @@ const TodaysBirthday = ({ people }) => {
       <section className="container">
         <h3>birthdays today</h3>
         {people.map((person, index) => {
-          let empDOB = person.dob;
-          if (empDOB === actualDAte) {
+          let personDOB = person.dob;
+          if (personDOB === actualDate) {
             return (
               <article key={index} className="person">
                 <img src={person.image} alt={person.name} />
                 <div>
                   <h4>{person.name}</h4>
-                  <p>{person.age} years</p>
                 </div>
               </article>
             );

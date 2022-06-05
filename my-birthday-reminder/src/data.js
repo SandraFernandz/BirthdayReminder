@@ -85,14 +85,14 @@ export default [
   {
     id: 12,
     name: 'Ruby Hirst',
-    dob: '14 Auguts',
+    dob: '04 June',
     image:
       'https://images.pexels.com/photos/3754438/pexels-photo-3754438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
   {
     id: 13,
     name: 'Felix Tag',
-    dob: '01 Auguts',
+    dob: '01 August',
     image:
       'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
   },
