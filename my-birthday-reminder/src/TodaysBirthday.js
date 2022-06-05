@@ -22,6 +22,7 @@ const TodaysBirthday = ({ people }) => {
   let actualDAte = `${newDate1} ${currentMonth}`;
   console.log(actualDAte);
   console.log('hello');
+
   return (
     <main>
       <section className="container">
@@ -38,6 +39,8 @@ const TodaysBirthday = ({ people }) => {
                 </div>
               </article>
             );
+          } else {
+            return null;
           }
         })}
       </section>
